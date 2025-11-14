@@ -1,0 +1,18 @@
+defaults:
+  - _self_
+  - config: FDM
+
+hydra:
+  run:
+    dir: ${config.output_dir}/${hydra.job.name}-${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+config:
+  num_workers: 8
+  seed: false
+  batch_size: 1
+  lr: 3.0e-5
+
+  job_name: ${hydra.job.name}
+  hydra_path: ${hydra:runtime.output_dir}
+
+  
