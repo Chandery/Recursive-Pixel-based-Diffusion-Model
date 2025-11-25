@@ -1,14 +1,14 @@
 # RePiD: Recursive Pixel-based Diffusion Model
 
 ## Overview
-<img src="https://github.com/user-attachments/assets/140a4466-73f8-49c6-b33b-31a288e9d078" width="100%"/>
+<img src="https://imgs-chan-1329526870.cos.ap-beijing.myqcloud.com/image-20251125173642941.png" width="100%"/>
 
 This repository contains the implementation of the Recursive Pixel-based Diffusion Model (RePiD), a cutting-edge approach to enhance image synthesis tasks. RePiD operates directly in the pixel space, employing a novel recursive mechanism and multiscale diffusion processes. Our model leverages hierarchical patch-based computations, significantly improving generation quality while reducing computational costs. 
 
 ## Research Context
 Recent advancements in generative models have underscored the benefits of pixel-based methods over traditional latent-space approaches. Conventional diffusion models often suffer from high computation costs due to full-resolution operations. RePiD addresses these challenges by directly manipulating pixel space through recursive processing, allowing for enhanced efficiency and fidelity in tasks such as class-to-image generation and image-to-image translation.
 
-<img  src="https://github.com/user-attachments/assets/09e3117c-212a-4150-b1fe-23e66573fc4c" width="100%"/>
+<img  src="https://imgs-chan-1329526870.cos.ap-beijing.myqcloud.com/image-20251125173516542.png" width="100%"/>
 
 ## Contributions
 - **End-to-End Recursive Framework**: RePiD introduces a recursive diffusion paradigm that efficiently generates images in pixel space, mitigating the computational burdens of high-resolution tasks.
@@ -42,6 +42,7 @@ For inference, run:
 ```bash
 python scripts/inference.py config=FDM
 ```
+
 
 
 
