@@ -8,6 +8,7 @@ This repository contains the implementation of the Recursive Pixel-based Diffusi
 Recent advancements in generative models have underscored the benefits of pixel-based methods over traditional latent-space approaches. Conventional diffusion models often suffer from high computation costs due to full-resolution operations. RePiD addresses these challenges by directly manipulating pixel space through recursive processing, allowing for enhanced efficiency and fidelity in tasks such as class-to-image generation and image-to-image translation.
 
 <img width="2372" height="1652" alt="image" src="https://github.com/user-attachments/assets/09e3117c-212a-4150-b1fe-23e66573fc4c" />
+
 ## Contributions
 - **End-to-End Recursive Framework**: RePiD introduces a recursive diffusion paradigm that efficiently generates images in pixel space, mitigating the computational burdens of high-resolution tasks.
 - **Multiscale Processing**: By segmenting images into non-overlapping patches at multiple scales, RePiD performs efficient hierarchical computations.
@@ -40,4 +41,5 @@ For inference, run:
 ```bash
 python scripts/inference.py --model path/to/trained/model --input path/to/input/image --output path/to/output/image
 ```
+
 
