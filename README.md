@@ -23,11 +23,7 @@ Recent advancements in generative models have underscored the benefits of pixel-
 To begin using RePiD, follow the installation instructions and usage guidelines below.
 
 ### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your_username/Recursive-Pixel-based-Diffusion-Model.git
-   cd Recursive-Pixel-based-Diffusion-Model
-   ```
+1. Download the project
 
 2. Install the required packages:
    ```bash
@@ -44,3 +40,4 @@ For inference, run:
 ```bash
 python scripts/inference.py --model path/to/trained/model --input path/to/input/image --output path/to/output/image
 ```
+
